@@ -6,6 +6,9 @@
                     <span>Main</span>
                 </li>
                 <li> 
+                    <a href="{{ route('dashboard') }}"><i class="fe fe-home"></i> <span>Dasboard</span></a>
+                </li>
+                <li> 
                     <a href="{{ route('users.list') }}"><i class="fe fe-users"></i> <span>User List</span></a>
                 </li>
                 <li> 
